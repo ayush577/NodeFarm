@@ -5,6 +5,7 @@ const url = require('url');
 const slugify = require('slugify');
 
 const replaceTemplate = require('./modules/replaceTemplate.js');
+const { Z_FIXED } = require('zlib');
 
 //* dealing with file
 
